@@ -9,7 +9,7 @@ struct Edge{
     int src,dest;
 };
 class Graph{
-    Node* getAdjustedNode(int dest,Node *head)
+    Node* getAdjustedNode(int dest,Node *head) 
     {
         Node *new_node=new Node;
         new_node->val=dest;
